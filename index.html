@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wendixter J. Cutanda | Virtual Assistant Portfolio</title>
+    <script>
+      (function () {
+        const path = window.location.pathname.replace(/\/+$/, "");
+        const segments = path.split("/").filter(Boolean);
+        const repoName = segments[0] && !segments[0].includes(".") ? segments[0] : "";
+        const baseHref = repoName && window.location.hostname.includes("github.io") ? `/${repoName}/` : "/";
+        const base = document.createElement("base");
+        base.href = baseHref;
+        document.head.insertBefore(base, document.head.firstChild);
+      })();
+    </script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Wendixter J. Cutanda home">
+          <span class="monogram">WC</span>
+          <span>
+            <strong>Wendixter J. Cutanda</strong>
+            <span>Virtual Assistant Portfolio</span>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          Menu
+        </button>
+        <div class="nav-links" id="primary-navigation">
+          <a href="#about">About</a>
+          <a href="#services">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#work">Portfolio</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Portfolio introduction">
+        <div class="hero-inner">
+          <div class="hero-layout">
+            <div>
+              <p class="eyebrow">Hire-ready virtual assistant for admin, data, and reports</p>
+              <h1 class="hero-title">I turn busy work into <span>organized results.</span></h1>
+              <p class="hero-copy">
+                I support employers with accurate data entry, polished reports, organized files, email and calendar
+                assistance, and dependable follow-through shaped by real operations experience.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#contact">Hire Me as VA</a>
+                <a class="button secondary" href="assets/DEX RESUME FOR VA.pdf" target="_blank" rel="noopener">Open Resume</a>
+                <a class="button secondary" href="#work">View Portfolio</a>
+              </div>
+            </div>
+            <aside class="hero-photo-card" aria-label="Profile photo">
+              <img src="assets/wendixter-cutanda-profile.jpg" alt="Wendixter J. Cutanda profile photo" />
+              <div class="hero-photo-caption">
+                <strong>Wendixter J. Cutanda</strong>
+                <span>Admin Support | Data Entry | Reports</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-strip" aria-label="Professional highlights">
+        <div class="metric">
+          <strong>VA</strong>
+          <span>Remote admin support with professional discipline</span>
+        </div>
+        <div class="metric">
+          <strong>Data</strong>
+          <span>Clean encoding, spreadsheet tracking, and summaries</span>
+        </div>
+        <div class="metric">
+          <strong>Admin</strong>
+          <span>Inbox, files, calendars, and daily task follow-up</span>
+        </div>
+        <div class="metric">
+          <strong>LCB</strong>
+          <span>Licensed customs broker trained in accuracy and compliance</span>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Professional Profile</p>
+            <h2>A dependable assistant who keeps work clear, current, and under control.</h2>
+          </div>
+          <p class="lead">
+            Wendixter J. Cutanda brings the accuracy of a licensed customs broker into virtual assistant work, with
+            strengths in documentation, reporting, data management, client coordination, and deadline-focused execution.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel">
+            <p>
+              Employers can count on me for steady, organized support. My customs and passenger-service experience
+              trained me to manage sensitive records, handle detailed information, prepare clear reports, and coordinate
+              with different people under time pressure. As a virtual assistant, I bring that same reliability to inbox
+              support, data entry, spreadsheet tracking, document formatting, and daily operations assistance.
+            </p>
+            <div class="check-list">
+              <div class="check">
+                <span class="check-mark">✓</span>
+                <p>Turns raw details into clean records, organized files, and ready-to-use documents.</p>
+              </div>
+              <div class="check">
+                <span class="check-mark">✓</span>
+                <p>Follows instructions carefully and respects deadlines, confidentiality, and process details.</p>
+              </div>
+              <div class="check">
+                <span class="check-mark">✓</span>
+                <p>Provides clear written updates so employers know what is done, pending, and next.</p>
+              </div>
+              <div class="check">
+                <span class="check-mark">✓</span>
+                <p>Creates practical reports, dashboards, summaries, and tracking sheets for quick review.</p>
+              </div>
+            </div>
+            <div class="hire-points" aria-label="Why employers should hire Wendixter">
+              <strong>Why employers notice my work</strong>
+              <p>I am calm with details, respectful with confidential information, and consistent with follow-through. I do not just finish tasks; I make the work easier for the next person to understand.</p>
+            </div>
+          </article>
+
+          <aside class="profile-card" aria-label="Virtual assistant profile summary">
+            <div class="profile-top">
+              <div class="profile-photo">
+                <img src="assets/wendixter-cutanda-profile.jpg" alt="Wendixter J. Cutanda" />
+              </div>
+              <h3>Wendixter J. Cutanda</h3>
+              <p>Hire-ready virtual assistant with a licensed customs broker background, strong admin discipline, reporting skills, and client-focused coordination.</p>
+            </div>
+            <div class="profile-list">
+              <div><span>Role</span><strong>Virtual Assistant</strong></div>
+              <div><span>Focus</span><strong>Admin, Data & Reports</strong></div>
+              <div><span>Strength</span><strong>Organized Follow-Through</strong></div>
+              <div><span>Edge</span><strong>Compliance-Trained Mindset</strong></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Services</p>
+            <h2>Resume-backed VA skills that help employers save time.</h2>
+          </div>
+          <p class="lead">
+            These strengths come directly from my resume experience in admin offices, event coordination, customs
+            operations, passenger service reporting, and digital file management.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z" /><path d="M8 8h8" /><path d="M8 12h8" /><path d="M8 16h5" /></svg>
+            </div>
+            <h3>Data Entry and Encoding</h3>
+            <p>Data encoding, spreadsheet tracking, record updates, and accurate handling of names, dates, figures, and operational details.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 7h18" /><path d="M7 7v13" /><path d="M17 7v13" /><path d="M6 20h12" /><path d="M9 4h6l2 3H7z" /></svg>
+            </div>
+            <h3>Email and Calendar Support</h3>
+            <p>Email management, scheduling support, event timelines, reminders, follow-ups, and professional daily communication.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 19h16" /><path d="M7 16V9" /><path d="M12 16V5" /><path d="M17 16v-7" /></svg>
+            </div>
+            <h3>Spreadsheet Reports</h3>
+            <p>Operational reports, productivity trackers, dashboards, tables, summaries, and management-ready visual reports.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="m9 12 2 2 4-5" /></svg>
+            </div>
+            <h3>Document Preparation</h3>
+            <p>Report preparation, correspondence, documentation review, digital file organization, and paper-based records support.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H7l-4 4V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z" /></svg>
+            </div>
+            <h3>Client and Team Coordination</h3>
+            <p>Coordination with clients, suppliers, offices, departments, and stakeholders to keep requirements moving on time.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 5h16" /><path d="M4 12h16" /><path d="M4 19h16" /><path d="M8 5v14" /></svg>
+            </div>
+            <h3>Research and Admin Support</h3>
+            <p>Basic online research, administrative support, office systems assistance, information cleanup, and multi-priority task handling.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Resume-Sourced Experience</p>
+            <h2>Administrative experience built in deadline-driven environments.</h2>
+          </div>
+          <p class="lead">
+            My resume shows hands-on work in document control, operational reports, customer service, records management,
+            event coordination, office administration, and productivity tracking.
+          </p>
+        </div>
+
+        <div class="resume-grid">
+          <div class="resume-column">
+            <article class="panel experience-item">
+              <span class="date">June 2024 - Present</span>
+              <h3>Bureau of Customs - Subport of Mactan, Passenger Service Office | Admin Staff</h3>
+              <ul>
+                <li>Prepare detailed operational and examination reports with accuracy and attention to detail.</li>
+                <li>Organize and maintain confidential records and documentation.</li>
+                <li>Verify travel documents, passenger information, and operational records.</li>
+                <li>Monitor weekly operational schedules and maintain organized databases.</li>
+                <li>Coordinate with multiple departments to ensure smooth daily operations.</li>
+                <li>Ensure accurate completion of electronic and paper-based documentation.</li>
+                <li>Prepare reports, correspondence, and administrative documents.</li>
+                <li>Perform administrative support duties while maintaining compliance with office procedures.</li>
+              </ul>
+            </article>
+
+            <article class="panel experience-item">
+              <span class="date">August 2023 - November 2023</span>
+              <h3>Bureau of Customs - Port of Cebu | Admin Office Intern / Head Intern</h3>
+              <ul>
+                <li>Managed documentation and report preparation for customs operations.</li>
+                <li>Organized large volumes of records and maintained accurate filing systems.</li>
+                <li>Assisted in monitoring operational workflows and processing timelines.</li>
+                <li>Coordinated with different offices for timely completion of administrative requirements.</li>
+                <li>Developed and maintained productivity tracking tools that improved reporting efficiency.</li>
+              </ul>
+            </article>
+
+            <article class="panel experience-item">
+              <span class="date">April 2023 - July 2023</span>
+              <h3>Martinez Customs Brokerage | Office Intern</h3>
+              <ul>
+                <li>Classified commodities using the Harmonized System (HS) Code according to tariff regulations.</li>
+                <li>Prepared and organized import documentation for Green, Yellow, Orange, and Red Lane processing.</li>
+                <li>Generated portal tickets through the Bureau of Customs electronic system.</li>
+                <li>Computed customs duties, taxes, and other applicable charges for import shipments.</li>
+                <li>Performed shipment proration computations involving up to 98 line items.</li>
+                <li>Processed and organized import documents while ensuring completeness and compliance with customs requirements.</li>
+              </ul>
+            </article>
+
+            <article class="panel experience-item">
+              <span class="date">May 2019 - August 2020</span>
+              <h3>Supreme Weddings | Event Coordinator Assistant</h3>
+              <ul>
+                <li>Coordinated with suppliers and clients.</li>
+                <li>Scheduled event preparations and timelines.</li>
+                <li>Managed inventories and expense records.</li>
+                <li>Assisted with administrative and logistical planning.</li>
+              </ul>
+            </article>
+          </div>
+
+          <aside class="resume-column">
+            <article class="panel">
+              <p class="kicker">Tools and Software</p>
+              <h3>Platforms I Can Work With</h3>
+              <div class="tool-cloud" aria-label="Tools and software from resume">
+                <span class="tool-chip">Microsoft Word</span>
+                <span class="tool-chip">Microsoft Excel</span>
+                <span class="tool-chip">Microsoft PowerPoint</span>
+                <span class="tool-chip">Google Docs</span>
+                <span class="tool-chip">Google Sheets</span>
+                <span class="tool-chip">Google Drive</span>
+                <span class="tool-chip">Email Management</span>
+                <span class="tool-chip">Digital File Organization</span>
+                <span class="tool-chip">Basic Online Research</span>
+                <span class="tool-chip">Office Administration Systems</span>
+                <span class="tool-chip">Data Encoding</span>
+                <span class="tool-chip">Data Studio</span>
+              </div>
+            </article>
+
+            <article class="panel">
+              <p class="kicker">Core Skills</p>
+              <h3>What I Bring to a VA Role</h3>
+              <ul class="credential-list">
+                <li>Administrative tasks with minimal supervision.</li>
+                <li>Excellent written communication and documentation skills.</li>
+                <li>Highly organized and capable of managing multiple priorities simultaneously.</li>
+                <li>Strong attention to detail and accuracy.</li>
+                <li>Quick learner who adapts easily to new software and systems.</li>
+                <li>Professional, reliable, and committed to high-quality work.</li>
+              </ul>
+            </article>
+
+            <article class="panel">
+              <p class="kicker">Education and Eligibility</p>
+              <h3>Credentials</h3>
+              <ul class="credential-list">
+                <li>Bachelor of Science in Customs Administration, Magna Cum Laude - University of Cebu Lapu-Lapu and Mandaue.</li>
+                <li>Thesis: "The Level of Impact in Implementing Orange Lane: An Integrated Selectivity Process to Customs Broker".</li>
+                <li>TVL - Tourism Management, With Honor - Dr. Cecilio Putong National High School.</li>
+                <li>Licensed Customs Broker.</li>
+                <li>Honor Graduate Eligibility - Civil Service Commission.</li>
+              </ul>
+            </article>
+
+            <article class="panel">
+              <p class="kicker">Achievements and Languages</p>
+              <h3>Additional Highlights</h3>
+              <ul class="credential-list">
+                <li>Magna Cum Laude, Academic Excellence Award, Academic Scholar, and Dean's Lister.</li>
+                <li>ASL Leadership Awardee and Outstanding Officer Award.</li>
+                <li>Languages: English, Filipino (Tagalog), and Bisaya (Cebuano).</li>
+              </ul>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="work-band" id="work">
+        <div class="section">
+          <div class="section-head">
+            <div>
+              <p class="kicker">Selected Work</p>
+              <h2>Proof that I can organize details into employer-ready outputs.</h2>
+            </div>
+            <p class="lead">
+              These samples show my ability to create dashboards, reports, accurate tables, visual summaries, and
+              structured records that make information easier to manage.
+            </p>
+          </div>
+
+           <div class="portfolio-grid">
+            <article class="project">
+              <figure>
+                <img src="assets/operations-hub.png" alt="Passenger Service Operations Hub dashboard" />
+              </figure>
+              <div class="project-body">
+                <h3>Passenger Service Operations Hub</h3>
+                <p>A polished admin dashboard sample showing staff status, notifications, schedules, currency data, and daily task visibility in one organized workspace.</p>
+                <div class="tag-row"><span class="tag">Dashboard</span><span class="tag">Admin Support</span><span class="tag">Task Monitoring</span></div>
+              </div>
+            </article>
+             <article class="project">
+              <figure>
+                <img src="assets/passenger-dashboard.png" alt="Passenger service monthly summary report" />
+              </figure>
+              <div class="project-body">
+                <h3>Passenger Service Dashboard</h3>
+                <p>A strong example of spreadsheet reporting, data summarization, table organization, and visual presentation for monthly performance review.</p>
+                <div class="tag-row"><span class="tag">Spreadsheet</span><span class="tag">Reporting</span><span class="tag">Data Summary</span></div>
+              </div>
+            </article>
+             <article class="project">
+              <figure>
+                <img src="assets/examination-report.png" alt="Physical examination report table" />
+              </figure>
+              <div class="project-body">
+                <h3>Physical Examination Report</h3>
+                <p>A detailed report sample that highlights careful record handling, professional formatting, table accuracy, and attention to transaction details.</p>
+                <div class="tag-row"><span class="tag">Records</span><span class="tag">Documentation</span><span class="tag">Data Accuracy</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Working Process</p>
+            <h2>How I keep remote work smooth, visible, and on time.</h2>
+          </div>
+          <p class="lead">
+            I work with clear instructions, organized task lists, timely updates, and careful review so employers always
+            know the status of the work.
+          </p>
+        </div>
+        <div class="process">
+          <article class="step">
+            <span class="step-number">01</span>
+            <h3>Understand</h3>
+            <p>Clarify the task, deadline, format, tools, and expected result before starting.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">02</span>
+            <h3>Organize</h3>
+            <p>Arrange files, records, notes, and data so everything is easy to find, track, and review.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">03</span>
+            <h3>Execute</h3>
+            <p>Complete the work carefully, whether it is encoding, scheduling, formatting, research, or reporting.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">04</span>
+            <h3>Report</h3>
+            <p>Send clear updates, completed files, summaries, and next-step notes without needing constant reminders.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact-inner">
+          <div>
+            <p class="kicker">Contact</p>
+            <h2>Looking for a reliable VA? Let’s make your workload lighter.</h2>
+            <p class="lead">
+              I am ready to support virtual assistant roles involving data entry, admin support, reports, scheduling,
+              document preparation, email assistance, and operations coordination.
+            </p>
+          </div>
+          <aside class="contact-card" aria-label="Contact details">
+            <div class="contact-line">
+              <span>Name</span>
+              <strong>Wendixter J. Cutanda, LCB</strong>
+            </div>
+            <div class="contact-line">
+              <span>Target Role</span>
+              <strong>Virtual Assistant / Admin Support</strong>
+            </div>
+            <div class="contact-line">
+              <span>Location</span>
+              <strong>Bankal, Lapu-Lapu City, Cebu, Philippines</strong>
+            </div>
+            <div class="contact-line">
+              <span>Email</span>
+              <strong><a href="mailto:910jaodexter@gmail.com">910jaodexter@gmail.com</a></strong>
+            </div>
+            <div class="contact-line">
+              <span>Phone</span>
+              <strong><a href="tel:+639619043375">09619043375</a></strong>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      © <span id="year">2026</span> Wendixter J. Cutanda. Virtual Assistant Portfolio. Licensed Customs Broker background.
+    </footer>
+
+    <div class="image-modal" id="imageModal" aria-hidden="true" role="dialog" aria-label="Portfolio image preview">
+      <button class="modal-close" type="button" aria-label="Close image preview">Close</button>
+      <img src="" alt="" id="modalImage" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
